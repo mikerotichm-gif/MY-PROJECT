@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotich Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Rotich Store</h1>
+    <input id="search" type="search" placeholder="Search products...">
+    <button id="cartButton">Cart (<span id="cartCount">0</span>)</button>
+  </header>
+  <main>
+    <section class="hero">
+      <h2>Find What You Love</h2>
+      <p>Great products. Great prices.</p>
+    </section>
+    <h2>Our Products</h2>
+    <section id="products" class="products"></section>
+    <section id="cartSection" hidden>
+      <h2>Your Cart</h2>
+      <ul id="cartItems"></ul>
+      <p>Total: KSh <span id="total">0</span></p>
+      <button id="clearCart">Clear Cart</button>
+    </section>
+  </main>
+  <footer>© 2026 Rotich Store</footer>
+  <script src="script.js"></script>
+</body>
+</html>
+  

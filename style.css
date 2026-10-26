@@ -1,0 +1,83 @@
+body{
+    background-image:url(mikee.jpg);
+    margin: 0;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}   
+header{
+    background-color: white;
+    padding: 10px;
+    position: sticky;
+    top:0;
+
+   
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+.nav-links a{
+    color:black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+} 
+.button{
+    display: flex;
+    gap: 10px;
+}
+.button button{
+    background-color:rgb(101, 101, 212);
+    color:white;
+    padding:15px;
+    width: 120px;
+   border-radius: 10px;   
+   font-size: 25px;
+   opacity: 1s;
+}
+.hero-section{
+    background-image: url(mikee.jpg);
+    height:500px ;
+}
+.hero-section h2{
+    margin: 0;
+    color: white;
+    padding-top: 200px;
+    padding-left: 50px;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.hero-section p{
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 40px;
+}
+.section-card{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.product-card{
+    background-color: beige;
+    height: 200px;
+    width: 200px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.product-card img{
+    height: 100px;
+    width: 80px;
+}
